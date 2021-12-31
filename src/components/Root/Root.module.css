@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "Poppins";
+  src: local("Poppins"),
+    url("http://fonts.cdnfonts.com/css/basier") format("truetype");
+}
+
+.wrapper {
+  padding: 32px;
+  display: flex;
+  background-color: black;
+  color: white;
+  font-family: "Basier Circle", sans-serif;
+  font-weight: 400;
+}
+
+*::-webkit-scrollbar-track {
+  /* -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3); */
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+*::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+  background-color: #ffffff;
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 2px;
+  /* -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3); */
+  background-color: #cad1d4;
+}

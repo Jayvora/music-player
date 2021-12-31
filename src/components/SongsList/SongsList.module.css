@@ -1,0 +1,27 @@
+.list {
+  display: flex;
+  flex-flow: column;
+  height: 100vh;
+  overflow: auto;
+}
+
+.header {
+  font-size: 32px;
+  font-weight: 32px;
+  line-height: 36px;
+  margin-left: 20px;
+}
+
+.inputWrapper {
+  /* margin-left: 20px; */
+  padding: 20px;
+}
+
+.search {
+  width: 400px;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 8px;
+}

@@ -1,0 +1,50 @@
+.wrapper {
+  height: 100vh;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 36px;
+}
+
+.artist {
+  font-size: 16px;
+  line-height: 24px;
+  opacity: 0.6;
+  margin-top: 8px;
+  margin-bottom: 40px;
+}
+
+.photo {
+  width: 480px;
+  height: 480px;
+  border-radius: 8px;
+}
+
+.actions {
+  display: flex;
+  width: 480px;
+  align-items: center;
+}
+
+.songActions {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.playbtn {
+  margin: 0 37px;
+}
+
+.circle {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
